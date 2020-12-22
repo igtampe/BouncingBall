@@ -16,7 +16,6 @@ namespace Igtampe.BouncingBall {
                 bool bounce;
                 
                 do {
-
                     bounce = false;
 
                     if(x+width > XLimit) {
@@ -47,7 +46,6 @@ namespace Igtampe.BouncingBall {
                 bool bounce;
                 
                 do {
-
                     bounce = false;
 
                     if(y+height > YLimit) {
@@ -77,7 +75,6 @@ namespace Igtampe.BouncingBall {
 
                 //verify the ball fits
                 if(XLimit < Width) { throw new ArgumentException("The ball won't fit with this size!"); }
-
             } 
         }
 
@@ -91,7 +88,6 @@ namespace Igtampe.BouncingBall {
 
                 //verify the ball fits
                 if(YLimit  < Height) { throw new ArgumentException("The ball won't fit with this size!"); }
-
             } 
         }
 
@@ -140,8 +136,8 @@ namespace Igtampe.BouncingBall {
             this.YLimit = YLimit;
         }
 
-        /// <summary>Ticks the ball exactly one second</summary>
-        public void Tick() {
+        /// <summary>Ticks the ball exactly one frame</summary>
+        public virtual void Tick() {
 
             //increase the yspeed by the gravity
             YSpeed += Gravity;
@@ -155,7 +151,5 @@ namespace Igtampe.BouncingBall {
             //and that's it. The setters handle the bounce.
 
         }
-
-            
     }
 }

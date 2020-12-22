@@ -14,7 +14,7 @@ namespace Igtampe.BouncingBall {
 
         /// <summary>Starts a bouncy ball</summary>
         /// <param name="args"></param>
-        static void Main(string[] args) {
+        public static void Main(string[] args) {
 
             BasicBall Ball = new BasicBall {
                 XSpeed = 3,
@@ -99,6 +99,11 @@ namespace Igtampe.BouncingBall {
             BallRenderer(Ball,ShowInfo,FPS,StopOnZero);
         }
 
+        /// <summary>Renders a BasicBall on the console</summary>
+        /// <param name="Ball"></param>
+        /// <param name="ShowInfo"></param>
+        /// <param name="FPS"></param>
+        /// <param name="StopOnZero"></param>
         public static void BallRenderer(BasicBall Ball, bool ShowInfo, int FPS, bool StopOnZero) {
             bool Cont = true;
 
