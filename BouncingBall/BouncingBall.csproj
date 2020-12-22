@@ -4,6 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>Igtampe.BouncingBall</RootNamespace>
+    <ApplicationIcon>BounceBall.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
