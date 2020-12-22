@@ -185,6 +185,7 @@ namespace Igtampe.BouncingBall {
                             return;
                         case ConsoleKey.I:
                             ShowInfo = !ShowInfo;
+                            if(!ShowInfo) { Console.Clear(); }
                             break;
                         default:
                             break;
