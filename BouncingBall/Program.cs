@@ -24,7 +24,7 @@ namespace Igtampe.BouncingBall {
             }; //default settings
 
             bool ShowInfo = true;
-            int FPS = 30;
+            int FPS = 20;
             bool StopOnZero = false;
 
             string ErrorString = "";
