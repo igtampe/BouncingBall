@@ -21,7 +21,7 @@ There's a few parameters available when running BouncingBall.exe from the consol
 |Bounciness|Percentage of speed that will be kept after a bounce.|Any Double Value <br><br>(But it should be between 0 and 1)|0.9|
 |Grav|Alias for Gravity|Any double value <br><br>(But it should be smol)|0.5|
 |Gravity|Acceleration per frame|Any double value <br><br>(But it should be smol)|0.5|
-|FPS|*attempted* Frames Per Second. May be less if the BasicGraphic is too big.|An integer value from 1 to 100. <br><br>Don't make it too large or you won't be able to see the ball.|30|
+|FPS|*attempted* Frames Per Second. May be less if the BasicGraphic is too big.|An integer value from 1 to 100. <br><br>Don't make it too large or you won't be able to see the ball.|20|
 |ShowInfo|Show the ball info or not|A boolean|True|
 |StopOnZero|Stops the simulation at speed 0,0 or not|A boolean|False|
 
